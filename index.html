@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="calculatorBody">
+        <fieldset>
+            <legend>Calculator</legend>
+            <div id="ansDisplay"></div>
+            <input class="calculatorDispaly" id="outputValue" disabled>
+            <div class="calculatorButtonContainer">
+                <div class="lineOneContainer">
+                    <button class="lineOneButton myButton">Rad</button>
+                    <button class="lineOneButton myButton myOperatorKey">x!</button>
+                    <button class="lineOneButton myButton myOperatorKey">%</button>
+                    <button class="lineOneButton myButton myOperatorKey">(</button>
+                    <button class="lineOneButton myButton myOperatorKey">)</button>
+                    <button class="lineOneButton myButton myOperatorKey" id="backspace" disabled>⬅</button>
+                    <button class="lineOneButton myButton lastButtonOnLine ac myOperatorKey" id="clear">AC</button>
+                </div>
+
+                <div class="lineTwoContainer">
+                    <button class="lineOneButton myButton myOperatorKey" disabled>Inv</button>
+                    <button class="lineOneButton myButton myOperatorKey">sin</button>
+                    <button class="lineOneButton myButton myOperatorKey">ln</button>
+                    <button class="lineOneButton myButton myNumberButton">7</button>
+                    <button class="lineOneButton myButton myNumberButton">8</button>
+                    <button class="lineOneButton myButton myNumberButton">9</button>
+                    <button class="lineOneButton myButton lastButtonOnLine myOperatorKey">÷</button>
+                </div>
+
+                <div class="lineThreeContainer">
+                    <button class="lineOneButton myButton">π</button>
+                    <button class="lineOneButton myButton">cos</button>
+                    <button class="lineOneButton myButton">log</button>
+                    <button class="lineOneButton myButton myNumberButton">4</button>
+                    <button class="lineOneButton myButton myNumberButton">5</button>
+                    <button class="lineOneButton myButton myNumberButton">6</button>
+                    <button class="lineOneButton myButton lastButtonOnLine myOperatorKey" id="*" >×</button>
+                </div>
+
+                <div class="lineFourContainer">
+                    <button class="lineOneButton myButton">e</button>
+                    <button class="lineOneButton myButton">tan</button>
+                    <button class="lineOneButton myButton">√</button>
+                    <button class="lineOneButton myButton myNumberButton">1</button>
+                    <button class="lineOneButton myButton myNumberButton">2</button>
+                    <button class="lineOneButton myButton myNumberButton">3</button>
+                    <button class="lineOneButton myButton lastButtonOnLine myOperatorKey">-</button>
+                </div>
+                <div class="lineFiveContainer">
+                    <button class="lineOneButton myButton" id="ans">Ans</button>
+                    <button class="lineOneButton myButton" disabled>EXP</button>
+                    <button class="lineOneButton myButton">x²</button>
+                    <button class="lineOneButton myButton myNumberButton">0</button>
+                    <button class="lineOneButton myButton myNumberButton" id="decimal">.</button>
+                    <button class="lineOneButton myButton myEqual myOperatorKey">=</button>
+                    <button class="lineOneButton myButton lastButtonOnLine myOperatorKey">+</button>
+                </div>
+
+            </div>
+        </fieldset>
+    </div>
+
+
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/code.js"></script>
+</body>
+
+</html>

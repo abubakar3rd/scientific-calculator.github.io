@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculatorBody {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+fieldset {
+    border-radius: .5rem;
+    background: #fff;
+    border: 2px solid #e4e1e1;
+}
+
+legend {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 .5rem;
+}
+
+#ansDisplay {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    margin-left: 37px;
+    margin-top: 25px;
+    font-size: 18px;
+    color: gray;
+}
+
+.calculatorDispaly {
+    display: block;
+    width: 715px;
+    height: 4.5rem;
+    border: 1px solid #f1f1f1;
+    margin: 0 auto;
+    border-radius: .3rem;
+    font-size: 2rem;
+    text-align: right;
+    padding: 0 1rem;
+    color: #000000;
+    background: #ffffff;
+}
+
+#historyValue {
+    float: right;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: gray;
+    height: 2rem;
+}
+
+.calculatorButtonContainer {
+    width: 750px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+.lastButtonOnLine.ac {
+    background: red;
+    color: #fff;
+    font-weight: 600;
+}
+
+.lineOneContainer {
+    margin-bottom: 4rem;
+}
+
+.lineTwoContainer {
+    margin-bottom: 8rem;
+}
+
+.lineThreeContainer {
+    margin-bottom: 12rem;
+}
+
+.lineFourContainer {
+    margin-bottom: 16rem;
+}
+
+.lineFiveContainer {
+    margin-bottom: 20rem;
+}
+.myButton {
+    width: 100px;
+    height: 50px;
+    background: lightgray;
+    border-radius: .3rem;
+    float: left;
+    margin-right: .52rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.myButton:active {
+    font-size: 1.2rem;
+}
+
+.myButton:focus {
+    outline: none;
+}
+
+.myNumberButton {
+    background: #f8f8f8;
+    border: none;
+}
+
+.lineOneButton.myButton.myEqual {
+    background: blue;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+.lineOneButton.lastButtonOnLine {
+    margin-right: 0;
+}
+
+.xy {
+    line-height: 0;
+}
